@@ -10,3 +10,4 @@
 # difficulty value. Set this equal to the variable `difficulty`
 # Kept getting an error that streamlit could not be resolved. 
 # the pychain ledger initially would not update, and I had some issues with not being able to get the new block inputs correct with the record(sender, receiver, amount) details. 
+![ alt text for screen readers](/C:\Users\jimp\Homework1\Unit 18 Blockchain\Unit-18-Blockchain\Images\Screenshot 2022-06-27 055050.png "Text to show on mouseover")
