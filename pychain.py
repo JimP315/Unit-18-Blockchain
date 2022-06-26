@@ -85,9 +85,6 @@ class Block:
     def hash_block(self):
         sha = hashlib.sha256()
 
-        #data = str(self.data).encode()
-        #sha.update(data)
-
         record = str(self.record).encode()
         sha.update(record)
 
@@ -206,7 +203,7 @@ if st.button("Add Block"):
 
     pychain.add_block(new_block)
     st.write("Winning Hash", new_block.hash_block())
-    st.balloons()
+    st.snow()
 
 ################################################################################
 # Streamlit Code (continues) # 1. Add a Streamlit slider component that allows the user to select a difficulty 
